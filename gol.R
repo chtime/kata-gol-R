@@ -117,9 +117,5 @@ population.evolve = function(canvas) {
     }
   }
   
-  # strip padding
-  evolution = evolution[2:(nrow(evolution) - 1), 
-                        2:(ncol(evolution) - 1)]
-  
   return(canvas.next)
 }
